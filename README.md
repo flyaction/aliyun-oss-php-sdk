@@ -23,12 +23,12 @@ Tips:
 
 - If you use the ***composer*** to manage project dependencies, run the following command in your project's root directory:
 
-        composer require aliyuncs/oss-sdk-php
+        composer require flyaction/oss-sdk-php
 
    You can also declare the dependency on Alibaba Cloud OSS SDK for PHP in the `composer.json` file.
 
         "require": {
-            "aliyuncs/oss-sdk-php": "~2.0"
+            "flyaction/oss-sdk-php": "~1.0"
         }
 
    Then run `composer install` to install the dependency. After the Composer Dependency Manager is installed, import the dependency in your PHP code: 

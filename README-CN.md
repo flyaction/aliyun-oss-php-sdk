@@ -23,12 +23,12 @@
 
 1. 如果您通过composer管理您的项目依赖，可以在你的项目根目录运行：
 
-        $ composer require aliyuncs/oss-sdk-php
+        $ composer require flyaction/oss-sdk-php
 
    或者在你的`composer.json`中声明对Aliyun OSS SDK for PHP的依赖：
 
         "require": {
-            "aliyuncs/oss-sdk-php": "~2.0"
+            "flyaction/oss-sdk-php": "~1.0"
         }
 
    然后通过`composer install`安装依赖。composer安装完成后，在您的PHP代码中引入依赖即可：
