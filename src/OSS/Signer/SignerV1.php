@@ -15,7 +15,7 @@ class SignerV1 implements SignerInterface
             $request->add_header('Date', gmdate('D, d M Y H:i:s \G\M\T'));
         }
         // Credentials information + 兼容php8.1+
-        if($credentials->getSecurityToken() && strlen($credentials->getSecurityToken()) > 0){
+        if(!empty($credentials->getSecurityToken()) && strlen($credentials->getSecurityToken()) > 0){
             $request->add_header("x-oss-security-token", $credentials->getSecurityToken());
         }
         $headers = $request->request_headers;
