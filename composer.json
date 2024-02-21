@@ -1,13 +1,13 @@
 {
-    "name": "aliyuncs/oss-sdk-php",
+    "name": "flyaction/oss-sdk-php",
     "description": "Aliyun OSS SDK for PHP",
     "homepage": "http://www.aliyun.com/product/oss/",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Aliyuncs",
-            "homepage": "http://www.aliyun.com"
+            "name": "flyaction",
+            "homepage": "https://www.xingdong365.com"
         }
     ],
     "require": {
